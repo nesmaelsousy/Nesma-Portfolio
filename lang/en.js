@@ -18,7 +18,7 @@ const translationsEN = {
       "Education",
 
     contact:
-      "Let's Talk ↗",
+      "Let's Talk  ",
 
   },
 
@@ -38,10 +38,10 @@ const translationsEN = {
       "Full-Stack Software Engineer focused on Laravel, React, clean architecture, backend systems, and modern web applications.",
 
     projectsButton:
-      "Explore My Work ↗",
+      "Explore My Work  ",
 
     contactButton:
-      "Get in Touch →",
+      "Get in Touch  ",
 
   },
 
@@ -151,7 +151,7 @@ const translationsEN = {
 
 
     viewDetails:
-      "View Details →",
+      "View Details  ",
 
 
     superfit: {
@@ -351,13 +351,13 @@ const translationsEN = {
       "Let's connect",
 
     linkedin:
-      "View my profile ↗",
+      "View my profile  ",
 
     github:
-      "Explore my repositories ↗",
+      "Explore my repositories  ",
 
     whatsapp:
-      "Start a conversation ↗",
+      "Start a conversation  ",
 
 
     form: {
@@ -381,7 +381,7 @@ const translationsEN = {
         "Your message...",
 
       button:
-        "Send Message ↗",
+        "Send Message  ",
 
     },
 
@@ -412,10 +412,10 @@ const translationsEN = {
       "Similar Product",
 
     github:
-      "GitHub Repository ↗",
+      "GitHub Repository  ",
 
     demo:
-      "Live Demo ↗",
+      "Live Demo  ",
 
     ctaEyebrow:
       "Have a similar project in mind?",
@@ -427,7 +427,7 @@ const translationsEN = {
       "If you're planning a similar platform or need a custom web solution, let's discuss your idea and turn it into a real product.",
 
     ctaButton:
-      "Let's Talk →",
+      "Let's Talk  ",
 
   },
 
