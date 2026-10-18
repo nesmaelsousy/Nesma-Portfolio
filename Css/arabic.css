@@ -1,0 +1,48 @@
+body {
+  direction: rtl;
+
+  font-family:
+    "Cairo",
+    "DM Sans",
+    sans-serif;
+}
+
+
+.hero,
+.section,
+.project-body,
+.contact-details,
+.timeline-item,
+.skill {
+  text-align: right;
+}
+
+
+.links {
+  direction: rtl;
+}
+
+
+.project-cover .number {
+  left: auto;
+  right: 20px;
+}
+
+
+.timeline-item::before {
+  left: auto;
+  right: 0;
+}
+
+
+.project-link:hover {
+  transform: translateX(-3px);
+}
+
+
+.socials,
+.actions,
+.tags,
+.project-actions {
+  direction: rtl;
+}

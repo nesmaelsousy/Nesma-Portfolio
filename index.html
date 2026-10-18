@@ -1,0 +1,1100 @@
+<!doctype html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta
+      name="description"
+      content="Nesma Elsousi — Full-Stack Software Engineer specializing in Laravel, React and modern web applications."
+    />
+
+    <title>Nesma Elsousi | Software Engineer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+
+  <body>
+    <!-- =========================================
+     NAVBAR
+========================================= -->
+
+    <header class="nav-wrap">
+      <nav class="nav container">
+        <a class="brand" href="#home"> nesma<span>.</span>dev </a>
+
+        <button
+          class="menu"
+          id="menuButton"
+          type="button"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          ☰
+        </button>
+
+        <div class="links" id="nav-links">
+          <a href="#home" data-i18n="nav.home"> Home </a>
+
+          <a href="#about" data-i18n="nav.about"> About </a>
+
+          <a href="#projects" data-i18n="nav.projects"> Projects </a>
+
+          <a href="#skills" data-i18n="nav.skills"> Skills </a>
+
+          <a href="#education" data-i18n="nav.education"> Education </a>
+
+          <button type="button" class="language-switcher" id="languageSwitcher">
+            AR
+          </button>
+
+          <a href="#contact" class="btn small" data-i18n="nav.contact">
+            Let's Talk ↗
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- =========================================
+     HERO
+========================================= -->
+
+      <section class="hero container" id="home">
+        <div class="hero-content">
+          <div class="eyebrow" data-i18n="hero.eyebrow">
+            Software engineer · Full-stack developer
+          </div>
+
+          <h1>
+            <span data-i18n="hero.title"> Hi, I'm Nesma Wafay Elsousi. </span>
+          </h1>
+
+          <p class="role" data-i18n="hero.role">
+            I build thoughtful, scalable web experiences.
+          </p>
+
+          <p class="intro" data-i18n="hero.intro">
+            Full-Stack Software Engineer focused on Laravel, React, backend
+            systems and modern web applications.
+          </p>
+
+          <div class="actions">
+            <a class="btn" href="#projects" data-i18n="hero.projectsButton">
+              Explore My Work ↗
+            </a>
+
+            <a
+              class="btn outline"
+              href="#contact"
+              data-i18n="hero.contactButton"
+            >
+              Get in Touch →
+            </a>
+          </div>
+
+          <div class="socials">
+            <a
+              href="https://github.com/nesmaelsousy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub ↗
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/nesma-al-sousi-5a2a97237/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn ↗
+            </a>
+
+            <a href="mailto:n.elsosey@gmail.com"> Email ↗ </a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orbit">
+            <div class="monogram">NE</div>
+          </div>
+
+          <div class="float one">&lt;/&gt; Laravel & PHP</div>
+
+          <div class="float two">✦ Clean Architecture</div>
+        </div>
+      </section>
+
+      <!-- =========================================
+     ABOUT
+========================================= -->
+
+      <section class="section about-section" id="about">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="eyebrow" data-i18n="about.label">01 / About Me</div>
+
+            <h2 data-i18n="about.title">
+              From understanding the problem to building the solution.
+            </h2>
+
+            <p data-i18n="about.subtitle">
+              A little more about my background, experience, and the way I
+              approach software development.
+            </p>
+          </div>
+
+          <div class="about-profile-grid">
+            <!-- MAIN STORY -->
+            <div class="about-story reveal">
+              <p class="about-lead" data-i18n="about.p1"></p>
+
+              <p data-i18n="about.p2"></p>
+
+              <p data-i18n="about.p3"></p>
+
+              <p data-i18n="about.p4"></p>
+
+              <p data-i18n="about.p5"></p>
+
+              <p data-i18n="about.p6"></p>
+
+              <div class="about-actions">
+                <a
+                  href="#projects"
+                  class="btn"
+                  data-i18n="about.projectsButton"
+                >
+                  Explore My Projects ↗
+                </a>
+
+                <a
+                  href="#contact"
+                  class="about-text-link"
+                  data-i18n="about.contactButton"
+                >
+                  Let's work together →
+                </a>
+              </div>
+            </div>
+
+            <!-- SIDE INFO -->
+            <aside class="about-profile-card reveal">
+              <span class="about-card-label" data-i18n="about.quickTitle">
+                Quick Overview
+              </span>
+
+              <div class="about-profile-item">
+                <span data-i18n="about.quick.roleLabel"> Role </span>
+
+                <strong data-i18n="about.quick.role">
+                  Full-Stack Software Engineer
+                </strong>
+              </div>
+
+              <div class="about-profile-item">
+                <span data-i18n="about.quick.focusLabel"> Focus </span>
+
+                <strong data-i18n="about.quick.focus">
+                  Web Applications & Backend Systems
+                </strong>
+              </div>
+
+              <div class="about-profile-item">
+                <span data-i18n="about.quick.stackLabel"> Main Stack </span>
+
+                <strong> Laravel · PHP · React · PostgreSQL </strong>
+              </div>
+
+              <div class="about-profile-item">
+                <span data-i18n="about.quick.approachLabel"> Approach </span>
+
+                <strong data-i18n="about.quick.approach">
+                  Clean, practical and maintainable
+                </strong>
+              </div>
+            </aside>
+          </div>
+
+          <!-- HOW I WORK -->
+          <div class="about-approach reveal">
+            <div class="about-approach-head">
+              <span class="eyebrow" data-i18n="about.approachLabel">
+                How I Work
+              </span>
+
+              <h3 data-i18n="about.approachTitle">
+                I care about the system behind the interface.
+              </h3>
+            </div>
+
+            <div class="about-approach-grid">
+              <div class="about-approach-item">
+                <span>01</span>
+
+                <h4 data-i18n="about.approach.problem.title">
+                  Understand the Problem
+                </h4>
+
+                <p data-i18n="about.approach.problem.description"></p>
+              </div>
+
+              <div class="about-approach-item">
+                <span>02</span>
+
+                <h4 data-i18n="about.approach.structure.title">
+                  Structure the System
+                </h4>
+
+                <p data-i18n="about.approach.structure.description"></p>
+              </div>
+
+              <div class="about-approach-item">
+                <span>03</span>
+
+                <h4 data-i18n="about.approach.build.title">Build & Improve</h4>
+
+                <p data-i18n="about.approach.build.description"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================
+     PROJECTS
+========================================= -->
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="eyebrow" data-i18n="projects.label">
+              02 / Selected Work
+            </div>
+
+            <h2 data-i18n="projects.title">Projects I've built.</h2>
+
+            <p data-i18n="projects.subtitle">
+              A selection of practical applications I've worked on.
+            </p>
+          </div>
+
+          <div class="grid projects">
+            <!-- =========================================
+           SUPERFIT
+      ========================================== -->
+
+            <article class="project reveal">
+              <div class="project-cover">
+                <span class="number"> 01 / PLATFORM </span>
+
+                <span class="glyph">
+                  <img
+                    src="image/covers/WhatsApp Image 2026-10-13 at 7.51.04 PM.jpeg"
+                    alt="SuperFit Platform"
+                  />
+                </span>
+              </div>
+
+              <div class="project-body">
+                <span class="project-type" data-i18n="projects.superfit.type">
+                  Fitness SaaS Platform
+                </span>
+
+                <h3 data-i18n="projects.superfit.title">SuperFit Platform</h3>
+
+                <p data-i18n="projects.superfit.description"></p>
+
+                <div class="tags">
+                  <span class="tag"> Laravel </span>
+
+                  <span class="tag"> React </span>
+
+                  <span class="tag"> PostgreSQL </span>
+
+                  <span class="tag"> Tailwind CSS </span>
+                </div>
+
+                <div class="project-actions">
+                  <button
+                    type="button"
+                    class="project-link case-study-btn"
+                    data-project="superfit"
+                    data-i18n="projects.viewDetails"
+                  >
+                    View Details →
+                  </button>
+
+                  <a
+                    class="project-link secondary"
+                    href="https://github.com/FitHub-Team/laravel_backend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- =========================================
+           BAZAAR
+      ========================================== -->
+
+            <article class="project reveal">
+              <div class="project-cover">
+                <span class="number"> 02 / MARKETPLACE </span>
+
+                <span class="glyph">
+                  <img
+                    src="image/covers/عرض متجر بازار للحِرف اليدوية والتقنيات.png"
+                    alt="Bazaar Store"
+                  />
+                </span>
+              </div>
+
+              <div class="project-body">
+                <span class="project-type" data-i18n="projects.bazaar.type">
+                  E-Commerce Marketplace
+                </span>
+
+                <h3 data-i18n="projects.bazaar.title">Bazaar Store</h3>
+
+                <p data-i18n="projects.bazaar.description"></p>
+
+                <div class="tags">
+                  <span class="tag"> Laravel </span>
+
+                  <span class="tag"> Tailwind CSS </span>
+
+                  <span class="tag"> JavaScript </span>
+                </div>
+
+                <div class="project-actions">
+                  <button
+                    type="button"
+                    class="project-link case-study-btn"
+                    data-project="bazaar"
+                    data-i18n="projects.viewDetails"
+                  >
+                    View Details →
+                  </button>
+
+                  <a
+                    class="project-link secondary"
+                    href="https://github.com/nesmaelsousy/bazaar-store.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- =========================================
+           FREELANCER GO
+      ========================================== -->
+
+            <article class="project reveal">
+              <div class="project-cover">
+                <span class="number"> 03 / PLATFORM </span>
+
+                <span class="glyph">
+                  <img
+                    src="image/covers/Screenshot 2026-06-27 162411.png"
+                    alt="FreelancerGo Platform"
+                  />
+                </span>
+              </div>
+
+              <div class="project-body">
+                <span
+                  class="project-type"
+                  data-i18n="projects.freelancego.type"
+                >
+                  Freelance Platform
+                </span>
+
+                <h3 data-i18n="projects.freelancego.title">
+                  FreelancerGo Platform
+                </h3>
+
+                <p data-i18n="projects.freelancego.description"></p>
+
+                <div class="tags">
+                  <span class="tag"> Laravel </span>
+
+                  <span class="tag"> JavaScript </span>
+
+                  <span class="tag"> Bootstrap </span>
+                </div>
+
+                <div class="project-actions">
+                  <button
+                    type="button"
+                    class="project-link case-study-btn"
+                    data-project="freelancego"
+                    data-i18n="projects.viewDetails"
+                  >
+                    View Details →
+                  </button>
+
+                  <a
+                    class="project-link secondary"
+                    href="https://github.com/nesmaelsousy/FreelanceGo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- =========================================
+           E-COMMERCE
+      ========================================== -->
+
+            <article class="project reveal">
+              <div class="project-cover">
+                <span class="number"> 05 / E-COMMERCE </span>
+
+                <span class="glyph">
+                  <img
+                    src="image/covers/نموذج متجر إلكترونيات عصري على الأجهزة.png"
+                    alt="E-Commerce Platform"
+                  />
+                </span>
+              </div>
+
+              <div class="project-body">
+                <span class="project-type" data-i18n="projects.ecommerce.type">
+                  E-Commerce Website
+                </span>
+
+                <h3 data-i18n="projects.ecommerce.title">
+                  E-Commerce Platform
+                </h3>
+
+                <p data-i18n="projects.ecommerce.description"></p>
+
+                <div class="tags">
+                  <span class="tag"> HTML </span>
+
+                  <span class="tag"> CSS </span>
+
+                  <span class="tag"> JavaScript </span>
+
+                  <span class="tag"> Bootstrap </span>
+                </div>
+
+                <div class="project-actions">
+                  <button
+                    type="button"
+                    class="project-link case-study-btn"
+                    data-project="ecommerce"
+                    data-i18n="projects.viewDetails"
+                  >
+                    View Details →
+                  </button>
+
+                  <a
+                    class="project-link secondary"
+                    href="https://nesmaelsousy.github.io/e-commerce-page/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live Demo ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- =========================================
+           MEDICAL
+      ========================================== -->
+
+            <article class="project reveal">
+              <div class="project-cover">
+                <span class="number"> 06 / HEALTHCARE </span>
+
+                <span class="glyph">
+                  <img
+                    src="image/covers/عرض موقع ميدينوفا الصحي الاحترافي.png"
+                    alt="Responsive Medical Website"
+                  />
+                </span>
+              </div>
+
+              <div class="project-body">
+                <span class="project-type" data-i18n="projects.medical.type">
+                  Healthcare Website
+                </span>
+
+                <h3 data-i18n="projects.medical.title">
+                  Responsive Medical Website
+                </h3>
+
+                <p data-i18n="projects.medical.description"></p>
+
+                <div class="tags">
+                  <span class="tag"> HTML </span>
+
+                  <span class="tag"> CSS </span>
+
+                  <span class="tag"> JavaScript </span>
+
+                  <span class="tag"> Bootstrap </span>
+                </div>
+
+                <div class="project-actions">
+                  <button
+                    type="button"
+                    class="project-link case-study-btn"
+                    data-project="medical"
+                    data-i18n="projects.viewDetails"
+                  >
+                    View Details →
+                  </button>
+                </div>
+              </div>
+            </article>
+            <!-- =========================================
+           PORTFOLIO
+      ========================================== -->
+
+            <article class="project reveal">
+              <div class="project-cover">
+                <span class="number"> 04 / PORTFOLIO </span>
+
+                <span class="glyph">
+                  <img
+                    src="image/covers/محفظة شخصية عصرية على شاشة داكنة.png"
+                    alt="Dynamic Personal Portfolio"
+                  />
+                </span>
+              </div>
+
+              <div class="project-body">
+                <span class="project-type" data-i18n="projects.portfolio.type">
+                  Personal Platform
+                </span>
+
+                <h3 data-i18n="projects.portfolio.title">
+                  Dynamic Personal Portfolio
+                </h3>
+
+                <p data-i18n="projects.portfolio.description"></p>
+
+                <div class="tags">
+                  <span class="tag"> Laravel </span>
+
+                  <span class="tag"> PHP </span>
+
+                  <span class="tag"> Tailwind CSS </span>
+                </div>
+
+                <div class="project-actions">
+                  <button
+                    type="button"
+                    class="project-link case-study-btn"
+                    data-project="portfolio"
+                    data-i18n="projects.viewDetails"
+                  >
+                    View Details →
+                  </button>
+
+                  <a
+                    class="project-link secondary"
+                    href="https://github.com/nesmaelsousy/personal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================
+     SKILLS
+========================================= -->
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="eyebrow" data-i18n="skills.label">03 / Tech Stack</div>
+
+            <h2 data-i18n="skills.title">Tools of the trade.</h2>
+
+            <p data-i18n="skills.subtitle">
+              Technologies I use to build modern web applications.
+            </p>
+          </div>
+
+          <div class="grid skills">
+            <div class="skill reveal">
+              <div class="icon">&lt;/&gt;</div>
+
+              <h3 data-i18n="skills.frontend">Frontend</h3>
+
+              <ul>
+                <li>HTML5 & CSS3</li>
+                <li>React.js</li>
+                <li>JavaScript</li>
+                <li>Bootstrap 5</li>
+                <li>Tailwind CSS</li>
+                <li>Responsive Design</li>
+              </ul>
+            </div>
+
+            <div class="skill reveal">
+              <div class="icon">{ }</div>
+
+              <h3 data-i18n="skills.backend">Backend</h3>
+
+              <ul>
+                <li>PHP & Laravel</li>
+                <li>MySQL / PostgreSQL</li>
+                <li>RESTful APIs</li>
+                <li>Database Design</li>
+                <li>SQL & Oracle</li>
+              </ul>
+            </div>
+
+            <div class="skill reveal">
+              <div class="icon">⌘</div>
+
+              <h3 data-i18n="skills.tools">Developer Tools</h3>
+
+              <ul>
+                <li>Git & GitHub</li>
+                <li>Docker</li>
+                <li>VS Code</li>
+                <li>Chrome DevTools</li>
+                <li>Debugging</li>
+                <li>Problem Solving</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================
+     EDUCATION
+========================================= -->
+
+      <section class="section" id="education">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="eyebrow" data-i18n="education.label">
+              04 / Background
+            </div>
+
+            <h2 data-i18n="education.title">Learning never stops.</h2>
+
+            <p data-i18n="education.subtitle"></p>
+          </div>
+
+          <div class="grid timeline">
+            <article class="timeline-item reveal">
+              <span class="date"> 2021 — 2026 </span>
+
+              <h3 data-i18n="education.degree.title"></h3>
+
+              <p class="org" data-i18n="education.degree.org"></p>
+
+              <p data-i18n="education.degree.description"></p>
+            </article>
+
+            <article class="timeline-item reveal">
+              <span class="date"> 2025 </span>
+
+              <h3 data-i18n="education.training.title"></h3>
+
+              <p class="org" data-i18n="education.training.org"></p>
+
+              <p data-i18n="education.training.description"></p>
+            </article>
+
+            <article class="timeline-item reveal">
+              <span class="date"> 2021 — 2022 </span>
+
+              <h3 data-i18n="education.fullstack.title"></h3>
+
+              <p class="org" data-i18n="education.fullstack.org"></p>
+
+              <p data-i18n="education.fullstack.description"></p>
+            </article>
+
+            <article class="timeline-item reveal">
+              <span class="date" data-i18n="education.learning.date">
+                Ongoing
+              </span>
+
+              <h3 data-i18n="education.learning.title"></h3>
+
+              <p class="org" data-i18n="education.learning.org"></p>
+
+              <p data-i18n="education.learning.description"></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================
+     CONTACT
+========================================= -->
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="eyebrow" data-i18n="contact.label">05 / Contact</div>
+
+            <h2 data-i18n="contact.title">Let's build something great.</h2>
+
+            <p data-i18n="contact.subtitle"></p>
+          </div>
+
+          <div class="contact-layout">
+            <div class="contact-details reveal">
+              <h3 data-i18n="contact.connect">Let's connect</h3>
+
+              <p>
+                Email
+                <br />
+
+                <a href="mailto:n.elsosey@gmail.com"> n.elsosey@gmail.com ↗ </a>
+              </p>
+
+              <p>
+                LinkedIn
+                <br />
+
+                <a
+                  href="https://www.linkedin.com/in/nesma-al-sousi-5a2a97237/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-i18n="contact.linkedin"
+                >
+                  View my profile ↗
+                </a>
+              </p>
+
+              <p>
+                GitHub
+                <br />
+
+                <a
+                  href="https://github.com/nesmaelsousy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-i18n="contact.github"
+                >
+                  Explore my repositories ↗
+                </a>
+              </p>
+
+              <p>
+                WhatsApp
+                <br />
+
+                <a
+                  href="https://wa.me/972592015235"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-i18n="contact.whatsapp"
+                >
+                  Start a conversation ↗
+                </a>
+              </p>
+            </div>
+
+            <form
+              class="panel form reveal"
+              action="https://formspree.io/f/xeedlajl"
+              method="POST"
+            >
+              <div class="field">
+                <label for="name" data-i18n="contact.form.name">
+                  Your name
+                </label>
+
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  required
+                  data-i18n-placeholder="contact.form.namePlaceholder"
+                />
+              </div>
+
+              <div class="field">
+                <label for="email" data-i18n="contact.form.email">
+                  Email address
+                </label>
+
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  required
+                  data-i18n-placeholder="contact.form.emailPlaceholder"
+                />
+              </div>
+
+              <div class="field">
+                <label for="message" data-i18n="contact.form.message">
+                  Tell me about your project
+                </label>
+
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  data-i18n-placeholder="contact.form.messagePlaceholder"
+                ></textarea>
+              </div>
+
+              <button class="btn" type="submit" data-i18n="contact.form.button">
+                Send Message ↗
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================================
+     PROJECT MODAL
+========================================= -->
+
+    <div class="project-modal" id="projectModal" aria-hidden="true">
+      <div class="project-modal-overlay" data-close-modal></div>
+
+      <div
+        class="project-modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+      >
+        <!-- CLOSE -->
+
+        <button
+          type="button"
+          class="project-modal-close"
+          id="projectModalClose"
+          aria-label="Close modal"
+        >
+          ✕
+        </button>
+
+        <!-- HEADER -->
+
+        <div class="project-modal-header">
+          <span class="project-modal-type" id="modalType"></span>
+
+          <h2 id="modalTitle"></h2>
+
+          <p class="project-modal-description" id="modalDescription"></p>
+        </div>
+
+        <!-- =========================================
+         GALLERY
+    ========================================== -->
+
+        <div class="modal-gallery" id="modalGallery">
+          <h6 data-i18n="modal.galleryLabel" style="color: gray">
+            Project Gallery
+          </h6>
+          <div class="modal-gallery-main">
+            <img id="modalMainImage" src="" alt="" />
+          </div>
+
+          <div class="modal-gallery-thumbs" id="modalGalleryThumbs"></div>
+        </div>
+
+        <!-- =========================================
+         ROLE + GOAL
+    ========================================== -->
+
+        <div class="modal-overview-grid">
+          <div class="modal-info-card">
+            <div class="modal-info-icon">01</div>
+
+            <div>
+              <span class="modal-label" data-i18n="modal.role"> My Role </span>
+
+              <p id="modalRole"></p>
+            </div>
+          </div>
+
+          <div class="modal-info-card">
+            <div class="modal-info-icon">02</div>
+
+            <div>
+              <span class="modal-label" data-i18n="modal.goal">
+                Project Goal
+              </span>
+
+              <p id="modalGoal"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- =========================================
+         FEATURES
+    ========================================== -->
+
+        <div class="modal-section">
+          <div class="modal-section-heading">
+            <span class="modal-section-number"> 03 </span>
+
+            <div>
+              <span class="modal-label" data-i18n="modal.features">
+                Key Features
+              </span>
+
+              <p
+                class="modal-section-description"
+                data-i18n="modal.featuresDescription"
+              >
+                Core functionality implemented in the project.
+              </p>
+            </div>
+          </div>
+
+          <div class="modal-features" id="modalFeatures"></div>
+        </div>
+
+        <!-- =========================================
+         TECHNOLOGIES
+    ========================================== -->
+
+        <div class="modal-section">
+          <div class="modal-section-heading">
+            <span class="modal-section-number"> 04 </span>
+
+            <div>
+              <span class="modal-label" data-i18n="modal.technologies">
+                Technologies
+              </span>
+
+              <p
+                class="modal-section-description"
+                data-i18n="modal.technologiesDescription"
+              >
+                Main technologies used to build the product.
+              </p>
+            </div>
+          </div>
+
+          <div class="modal-tags" id="modalTags"></div>
+        </div>
+
+        <!-- =========================================
+         SIMILAR PRODUCT
+    ========================================== -->
+
+        <!-- =========================================
+         LINKS
+    ========================================== -->
+
+        <div class="project-modal-actions">
+          <a
+            id="modalGithub"
+            class="btn"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="modal.github"
+          >
+            GitHub Repository ↗
+          </a>
+
+          <a
+            id="modalDemo"
+            class="btn outline"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="modal.demo"
+          >
+            Live Demo ↗
+          </a>
+
+          <a
+            href="#contact"
+            class="btn modal-talk-btn"
+            id="modalTalkButton"
+            data-i18n="modal.ctaButton"
+          >
+            Let's Talk →
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================================
+     FOOTER
+========================================= -->
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>
+          ©
+          <span id="year"></span>
+          Nesma Elsousi.
+
+          <span data-i18n="footer.text"> Built with care. </span>
+        </p>
+
+        <div class="footer-nav">
+          <a href="#home" data-i18n="footer.top"> Back to top ↑ </a>
+
+          <a
+            href="https://github.com/nesmaelsousy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/nesma-al-sousi-5a2a97237/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- =========================================
+     JS
+========================================= -->
+
+    <script src="lang/en.js"></script>
+    <script src="lang/ar.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
